@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+
+:root{
+    --primary-color:#818CF8
+}
+
+body{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.heading{
+    text-align: center;
+    background-color:var(--primary-color) ;
+    outline-width: 1rem;
+    border-radius: 15px 40px;
+    padding: 1rem 0.5rem;
+    font-size: 1.2rem;
+}
+
+.pagelink{
+    text-decoration: none;
+    padding: 0.7rem;
+    font-weight: bold;
+    color: rgb(243, 237, 237);
+}
+
+.pagelink:hover{
+    color:black
+    ;
+}
+
+
+.istriangle{
+    text-align: center;
+    padding: 1rem;
+}
+
+.angles{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius:5px 15px; 
+    font-size: 1rem;
+    border: 2px solid var(--primary-color);
+}
+
+.lable{
+    font-weight: bold;
+}
+.button{
+    padding: 1rem;
+    margin: 1rem;
+    margin-left: 2rem;
+    /* padding-left: 1rem; */
+    border-radius:5px 15px; 
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid var(--primary-color);
+}
+
+.button:hover{
+    background-color: var(--primary-color);
+}
+
+
+.output{
+    font-weight: bold;
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
+hr{
+    width: 50%;
+}
+
+
+footer .link{
+color:var(--primary-color) ;
+text-decoration: none;
+padding: 1rem;
+font-weight: bold;
+color: black;
+font-size: 1rem;
+}
+
+footer .link:hover{
+    color:var(--primary-color) ;
+}
+
+.quiz-Form{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.side-input{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius:5px 15px; 
+    font-size: 1rem;
+    border: 2px solid var(--primary-color);
+}
+
+.hypotenusebtn{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius:5px 15px; 
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid var(--primary-color);
+    margin-left:24vh
+}
+
+.hypotenusebtn:hover{
+    background-color: var(--primary-color);
+}
